@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+    <h1>Student Registration</h1>
+</header>
+
+<form onsubmit="registerUser(event)">
+
+    <label>Full Name</label>
+    <input type="text" id="name" placeholder="Enter Full Name" required>
+
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Enter Email" required>
+
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Create Password" required>
+
+    <button type="submit">Register</button>
+
+</form>
+
+<p style="text-align:center;">
+    Already have an account?
+    <a href="login.html">Login Here</a>
+</p>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
